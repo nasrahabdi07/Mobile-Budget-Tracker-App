@@ -6,13 +6,13 @@ import 'firebase/compat/firestore';
 import { getReactNativePersistence } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCAj5JHlVim6kS8HkhBJ5qgBmFA-w-TSRA",
-    authDomain: "mobile-budget-tracker.firebaseapp.com",
-    projectId: "mobile-budget-tracker",
-    storageBucket: "mobile-budget-tracker.firebasestorage.app",
-    messagingSenderId: "498788004960",
-    appId: "1:498788004960:web:9b3e73c72550b221c3bf05",
-    measurementId: "G-K483H8W92L"
+    apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+    authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
+    measurementId: process.env.EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
 let app;
