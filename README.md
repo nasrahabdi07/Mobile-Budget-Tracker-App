@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# Mobile Budget Tracker 📱💸
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A comprehensive, full-stack expense tracking application built with **React Native (Expo)** and **Firebase**.
 
-## Get started
+I designed this app to help users track their finances efficiently, featuring detailed analytics, real-time synchronization, and an intelligent receipt scanner.
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+-   **Dashboard Analytics**: Interactive charts and time-based filtering (Weekly, Monthly, Yearly) to visualize spending habits.
+-   **Smart Receipt Scanner**: Integrated camera functionality that uses the **Gemini Vision API** to automatically extract merchant details and prices from physical receipts.
+-   **Real-time Persistence**: Authentication and database operations are powered by **Firebase**, ensuring data is synced instantly across devices.
+-   **CRUD Operations**: Full capability to Add, Edit, and Delete transactions with a polished UI.
+-   **Secure Authentication**: Robust email/password login system.
 
-2. Start the app
+## 🛠️ Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+-   **Frontend**: React Native, Expo, TypeScript
+-   **Backend**: Firebase (Firestore, Authentication)
+-   **AI Integration**: Google Gemini API
+-   **Visualization**: React Native Chart Kit
 
-In the output, you'll find options to open the app in a
+## 🚀 Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/yourusername/mobile-budget-tracker.git
+    cd mobile-budget-tracker
+    ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-## Get a fresh project
+3.  **Run the app**
+    ```bash
+    npx expo start
+    ```
 
-When you're ready, run:
+## 📸 Screenshots
 
-```bash
-npm run reset-project
-```
+| Dashboard | Add Expense | Scanner |
+|-----------|-------------|---------|
+| ![Dashboard](./assets/images/dashboard-preview.png) | ![Modal](./assets/images/modal-preview.png) | ![Scan](./assets/images/scan-preview.png) |
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🔮 Future Improvements
 
-## Learn more
+I plan to add:
+-   Export to CSV/PDF.
+-   Budget goal setting.
+-   Push notifications for daily spending summaries.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+*Built with ❤️ by Abdinur.*
