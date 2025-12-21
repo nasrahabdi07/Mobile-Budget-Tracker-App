@@ -39,9 +39,8 @@ I designed this app to help users track their finances efficiently, featuring de
 
 ## 📸 Screenshots
 
-| Dashboard | Add Expense | Scanner |
-|-----------|-------------|---------|
-| ![Dashboard](./assets/images/dashboard-preview.png) | ![Modal](./assets/images/modal-preview.png) | ![Scan](./assets/images/scan-preview.png) |
+<img width="788" height="1600" alt="image" src="https://github.com/user-attachments/assets/01992569-d798-4aba-8e98-d63c10e1e7c7" />
+
 
 ## 🔮 Future Improvements
 
@@ -52,4 +51,3 @@ I plan to add:
 
 ---
 
-*Built with ❤️ by Abdinur.*
