@@ -1,10 +1,10 @@
-# Mobile Budget Tracker 📱💸
+# Mobile Budget Tracker 
 
 A comprehensive, full-stack expense tracking application built with **React Native (Expo)** and **Firebase**.
 
 I designed this app to help users track their finances efficiently, featuring detailed analytics, real-time synchronization, and an intelligent receipt scanner.
 
-## ✨ Features
+##  Features
 
 -   **Dashboard Analytics**: Interactive charts and time-based filtering (Weekly, Monthly, Yearly) to visualize spending habits.
 -   **Smart Receipt Scanner**: Integrated camera functionality that uses the **Gemini Vision API** to automatically extract merchant details and prices from physical receipts.
@@ -12,14 +12,14 @@ I designed this app to help users track their finances efficiently, featuring de
 -   **CRUD Operations**: Full capability to Add, Edit, and Delete transactions with a polished UI.
 -   **Secure Authentication**: Robust email/password login system.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Frontend**: React Native, Expo, TypeScript
 -   **Backend**: Firebase (Firestore, Authentication)
 -   **AI Integration**: Google Gemini API
 -   **Visualization**: React Native Chart Kit
 
-## 🚀 Getting Started
+##  Getting Started
 
 1.  **Clone the repository**
     ```bash
@@ -37,12 +37,12 @@ I designed this app to help users track their finances efficiently, featuring de
     npx expo start
     ```
 
-## 📸 Screenshots
+##  Screenshots
 
 <img width="788" height="1600" alt="image" src="https://github.com/user-attachments/assets/01992569-d798-4aba-8e98-d63c10e1e7c7" />
 
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 I plan to add:
 -   Export to CSV/PDF.
